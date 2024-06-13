@@ -3,6 +3,7 @@ import './App.css';
 import Frontpage from './components/Frontpage';
 import FormPage from './components/FormPage';
 import Search from './components/Search';
+import Viewall from './components/Viewall';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Frontpage/>
       <FormPage/>
       <Search/>
+      <Viewall/>
     </div>
   );
 }
